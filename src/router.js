@@ -18,13 +18,7 @@ function Routes() {
             headerShown: false,
           }}
         />
-        <Stack.Screen
-          name='Detail'
-          component={Detail}
-          options={{
-            headerShown: false,
-          }}
-        />
+        <Stack.Screen name='Detail' component={Detail} />
       </Stack.Navigator>
     </NavigationContainer>
   );
