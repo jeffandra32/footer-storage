@@ -10,7 +10,7 @@ export default function App() {
     Anton_400Regular,
   });
 
-  if (!fontsLoaded) {
+  if (fontsLoaded) {
     return <AppLoading />;
   }
 
